@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  TrackingTest
 //
-//  Created by sayednasri on 25/01/2019.
+//  Created by fahmex on 25/01/2019.
 //  Copyright © 2019 fahmi. All rights reserved.
 //
 
@@ -13,7 +13,8 @@ import CoreData
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    static var currentUser : User? = nil
+    static var url : String = "localhost:2000"
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
